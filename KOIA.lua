@@ -6085,7 +6085,7 @@ local MSGID = string.gsub(MsgId,'.0','')
 https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/AnimeDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..MsgId.."&parse_mode=markdown") 
 end
 if text ==  "زواج" then
-return LuaTele.sendText(msg_chat_id,msg_id,'\n تم زواج  : '..msg.Name_Controller,"md",true)
+return LuaTele.sendText(msg_chat_id,msg_id,'\n᥀︙ تم زواج : '..msg.Name_Controller,"md",true)
 end
 if text == "صوره" or text == "صورة" then
 Abs = math.random(2,140); 
