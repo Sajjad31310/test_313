@@ -2267,8 +2267,8 @@ return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙هاذا الامر يخص 
 end
 os.execute('rm -rf KOIA.lua')
 os.execute('wget https://raw.githubusercontent.com/Sajjad31310/sa_jj_ad_313/master/KOIA.lua')
-dofile('KPIA.lua')
-io.popen("rm -rf ../.telegram-cli/*")    
+dofile('KOIA.lua')
+io.popen("rm -rf ../.telegram-cli/*")
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*᥀︙تم تحديث السورس * ',"md",true)  
 end
 if text == 'جلب النسخه الاحتياطيه ⌔' or text == 'جلب نسخه احتياطيه' then
